@@ -8,12 +8,54 @@
 
 /* Begin PBXBuildFile section */
 		C7169DD025E861D700221CBA /* MiguelPod.h in Headers */ = {isa = PBXBuildFile; fileRef = C7169DCE25E861D700221CBA /* MiguelPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7169E0325E862D800221CBA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7169DDC25E862D800221CBA /* Constants.swift */; };
+		C7169E0425E862D800221CBA /* AESEncryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7169DDD25E862D800221CBA /* AESEncryption.swift */; };
+		C7169E0525E862D800221CBA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7169DE025E862D800221CBA /* DetailViewController.swift */; };
+		C7169E0625E862D800221CBA /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7169DE125E862D800221CBA /* DetailViewController.xib */; };
+		C7169E0725E862D800221CBA /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7169DE325E862D800221CBA /* DetailPresenter.swift */; };
+		C7169E0825E862D800221CBA /* DetailProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7169DE525E862D800221CBA /* DetailProtocol.swift */; };
+		C7169E0925E862D800221CBA /* Examen_Miguel_Delgado.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C7169DE625E862D800221CBA /* Examen_Miguel_Delgado.xcdatamodeld */; };
+		C7169E0A25E862D800221CBA /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7169DEA25E862D800221CBA /* HomePresenter.swift */; };
+		C7169E0B25E862D800221CBA /* HomeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7169DEC25E862D800221CBA /* HomeProtocol.swift */; };
+		C7169E0C25E862D800221CBA /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7169DEE25E862D800221CBA /* HomeModel.swift */; };
+		C7169E0D25E862D800221CBA /* InformationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7169DF125E862D800221CBA /* InformationTableViewCell.swift */; };
+		C7169E0E25E862D900221CBA /* InformationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7169DF225E862D800221CBA /* InformationTableViewCell.xib */; };
+		C7169E0F25E862D900221CBA /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7169DF525E862D800221CBA /* Service.swift */; };
+		C7169E1025E862D900221CBA /* LocalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7169DF925E862D800221CBA /* LocalData.swift */; };
+		C7169E1125E862D900221CBA /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7169DFB25E862D800221CBA /* LoginPresenter.swift */; };
+		C7169E1225E862D900221CBA /* LoginProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7169DFD25E862D800221CBA /* LoginProtocol.swift */; };
+		C7169E1325E862D900221CBA /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7169DFF25E862D800221CBA /* LoginModel.swift */; };
+		C7169E1425E862D900221CBA /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7169E0125E862D800221CBA /* LoginViewController.xib */; };
+		C7169E1525E862D900221CBA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7169E0225E862D800221CBA /* LoginViewController.swift */; };
+		D0633C5273AB3B14EC7F659A /* Pods_MiguelPod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 605A4EA11EB774581A588B1F /* Pods_MiguelPod.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0DE0CEA5C8532723CC89FA4F /* Pods-MiguelPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiguelPod.debug.xcconfig"; path = "Target Support Files/Pods-MiguelPod/Pods-MiguelPod.debug.xcconfig"; sourceTree = "<group>"; };
+		15E446C5B42CA864D4A035CB /* Pods-MiguelPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiguelPod.release.xcconfig"; path = "Target Support Files/Pods-MiguelPod/Pods-MiguelPod.release.xcconfig"; sourceTree = "<group>"; };
+		605A4EA11EB774581A588B1F /* Pods_MiguelPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiguelPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7169DCB25E861D700221CBA /* MiguelPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MiguelPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7169DCE25E861D700221CBA /* MiguelPod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MiguelPod.h; sourceTree = "<group>"; };
 		C7169DCF25E861D700221CBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7169DDC25E862D800221CBA /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C7169DDD25E862D800221CBA /* AESEncryption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AESEncryption.swift; sourceTree = "<group>"; };
+		C7169DE025E862D800221CBA /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		C7169DE125E862D800221CBA /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		C7169DE325E862D800221CBA /* DetailPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
+		C7169DE525E862D800221CBA /* DetailProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailProtocol.swift; sourceTree = "<group>"; };
+		C7169DE725E862D800221CBA /* Examen_Miguel_Delgado.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Examen_Miguel_Delgado.xcdatamodel; sourceTree = "<group>"; };
+		C7169DEA25E862D800221CBA /* HomePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		C7169DEC25E862D800221CBA /* HomeProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeProtocol.swift; sourceTree = "<group>"; };
+		C7169DEE25E862D800221CBA /* HomeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		C7169DF125E862D800221CBA /* InformationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformationTableViewCell.swift; sourceTree = "<group>"; };
+		C7169DF225E862D800221CBA /* InformationTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InformationTableViewCell.xib; sourceTree = "<group>"; };
+		C7169DF525E862D800221CBA /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		C7169DF925E862D800221CBA /* LocalData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalData.swift; sourceTree = "<group>"; };
+		C7169DFB25E862D800221CBA /* LoginPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		C7169DFD25E862D800221CBA /* LoginProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginProtocol.swift; sourceTree = "<group>"; };
+		C7169DFF25E862D800221CBA /* LoginModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		C7169E0125E862D800221CBA /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		C7169E0225E862D800221CBA /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,17 +63,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0633C5273AB3B14EC7F659A /* Pods_MiguelPod.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4829FDCC01F5ECD6CA32C03D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				605A4EA11EB774581A588B1F /* Pods_MiguelPod.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C7169DC125E861D700221CBA = {
 			isa = PBXGroup;
 			children = (
 				C7169DCD25E861D700221CBA /* MiguelPod */,
 				C7169DCC25E861D700221CBA /* Products */,
+				D9AD28884A33DCF0522A4B63 /* Pods */,
+				4829FDCC01F5ECD6CA32C03D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -46,10 +99,198 @@
 		C7169DCD25E861D700221CBA /* MiguelPod */ = {
 			isa = PBXGroup;
 			children = (
+				C7169DDE25E862D800221CBA /* Detail */,
+				C7169DE625E862D800221CBA /* Examen_Miguel_Delgado.xcdatamodeld */,
+				C7169DE825E862D800221CBA /* Home */,
+				C7169DF625E862D800221CBA /* Login */,
+				C7169DDB25E862D800221CBA /* Utility */,
 				C7169DCE25E861D700221CBA /* MiguelPod.h */,
 				C7169DCF25E861D700221CBA /* Info.plist */,
 			);
 			path = MiguelPod;
+			sourceTree = "<group>";
+		};
+		C7169DDB25E862D800221CBA /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				C7169DDC25E862D800221CBA /* Constants.swift */,
+				C7169DDD25E862D800221CBA /* AESEncryption.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		C7169DDE25E862D800221CBA /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				C7169DDF25E862D800221CBA /* DetailView */,
+				C7169DE225E862D800221CBA /* DetailPresenter */,
+				C7169DE425E862D800221CBA /* DetailProtocol */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		C7169DDF25E862D800221CBA /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				C7169DE025E862D800221CBA /* DetailViewController.swift */,
+				C7169DE125E862D800221CBA /* DetailViewController.xib */,
+			);
+			path = DetailView;
+			sourceTree = "<group>";
+		};
+		C7169DE225E862D800221CBA /* DetailPresenter */ = {
+			isa = PBXGroup;
+			children = (
+				C7169DE325E862D800221CBA /* DetailPresenter.swift */,
+			);
+			path = DetailPresenter;
+			sourceTree = "<group>";
+		};
+		C7169DE425E862D800221CBA /* DetailProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				C7169DE525E862D800221CBA /* DetailProtocol.swift */,
+			);
+			path = DetailProtocol;
+			sourceTree = "<group>";
+		};
+		C7169DE825E862D800221CBA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C7169DE925E862D800221CBA /* HomePresenter */,
+				C7169DEB25E862D800221CBA /* HomeProtocol */,
+				C7169DED25E862D800221CBA /* HomeModel */,
+				C7169DEF25E862D800221CBA /* HomeView */,
+				C7169DF325E862D800221CBA /* HomeDataManager */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C7169DE925E862D800221CBA /* HomePresenter */ = {
+			isa = PBXGroup;
+			children = (
+				C7169DEA25E862D800221CBA /* HomePresenter.swift */,
+			);
+			path = HomePresenter;
+			sourceTree = "<group>";
+		};
+		C7169DEB25E862D800221CBA /* HomeProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				C7169DEC25E862D800221CBA /* HomeProtocol.swift */,
+			);
+			path = HomeProtocol;
+			sourceTree = "<group>";
+		};
+		C7169DED25E862D800221CBA /* HomeModel */ = {
+			isa = PBXGroup;
+			children = (
+				C7169DEE25E862D800221CBA /* HomeModel.swift */,
+			);
+			path = HomeModel;
+			sourceTree = "<group>";
+		};
+		C7169DEF25E862D800221CBA /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				C7169DF025E862D800221CBA /* cell */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		C7169DF025E862D800221CBA /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				C7169DF125E862D800221CBA /* InformationTableViewCell.swift */,
+				C7169DF225E862D800221CBA /* InformationTableViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		C7169DF325E862D800221CBA /* HomeDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				C7169DF425E862D800221CBA /* API */,
+			);
+			path = HomeDataManager;
+			sourceTree = "<group>";
+		};
+		C7169DF425E862D800221CBA /* API */ = {
+			isa = PBXGroup;
+			children = (
+				C7169DF525E862D800221CBA /* Service.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		C7169DF625E862D800221CBA /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C7169DF725E862D800221CBA /* LoginDataManager */,
+				C7169DFA25E862D800221CBA /* LoginPresenter */,
+				C7169DFC25E862D800221CBA /* LoginProtocol */,
+				C7169DFE25E862D800221CBA /* LoginModel */,
+				C7169E0025E862D800221CBA /* LoginView */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		C7169DF725E862D800221CBA /* LoginDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				C7169DF825E862D800221CBA /* LocalData */,
+			);
+			path = LoginDataManager;
+			sourceTree = "<group>";
+		};
+		C7169DF825E862D800221CBA /* LocalData */ = {
+			isa = PBXGroup;
+			children = (
+				C7169DF925E862D800221CBA /* LocalData.swift */,
+			);
+			path = LocalData;
+			sourceTree = "<group>";
+		};
+		C7169DFA25E862D800221CBA /* LoginPresenter */ = {
+			isa = PBXGroup;
+			children = (
+				C7169DFB25E862D800221CBA /* LoginPresenter.swift */,
+			);
+			path = LoginPresenter;
+			sourceTree = "<group>";
+		};
+		C7169DFC25E862D800221CBA /* LoginProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				C7169DFD25E862D800221CBA /* LoginProtocol.swift */,
+			);
+			path = LoginProtocol;
+			sourceTree = "<group>";
+		};
+		C7169DFE25E862D800221CBA /* LoginModel */ = {
+			isa = PBXGroup;
+			children = (
+				C7169DFF25E862D800221CBA /* LoginModel.swift */,
+			);
+			path = LoginModel;
+			sourceTree = "<group>";
+		};
+		C7169E0025E862D800221CBA /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				C7169E0125E862D800221CBA /* LoginViewController.xib */,
+				C7169E0225E862D800221CBA /* LoginViewController.swift */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		D9AD28884A33DCF0522A4B63 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DE0CEA5C8532723CC89FA4F /* Pods-MiguelPod.debug.xcconfig */,
+				15E446C5B42CA864D4A035CB /* Pods-MiguelPod.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -70,6 +311,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7169DD325E861D700221CBA /* Build configuration list for PBXNativeTarget "MiguelPod" */;
 			buildPhases = (
+				35FC4900C3BB7CE1ACF6B723 /* [CP] Check Pods Manifest.lock */,
 				C7169DC625E861D700221CBA /* Headers */,
 				C7169DC725E861D700221CBA /* Sources */,
 				C7169DC825E861D700221CBA /* Frameworks */,
@@ -120,16 +362,60 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7169E0E25E862D900221CBA /* InformationTableViewCell.xib in Resources */,
+				C7169E0625E862D800221CBA /* DetailViewController.xib in Resources */,
+				C7169E1425E862D900221CBA /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35FC4900C3BB7CE1ACF6B723 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MiguelPod-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C7169DC725E861D700221CBA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7169E0B25E862D800221CBA /* HomeProtocol.swift in Sources */,
+				C7169E0A25E862D800221CBA /* HomePresenter.swift in Sources */,
+				C7169E0D25E862D800221CBA /* InformationTableViewCell.swift in Sources */,
+				C7169E1225E862D900221CBA /* LoginProtocol.swift in Sources */,
+				C7169E1025E862D900221CBA /* LocalData.swift in Sources */,
+				C7169E0C25E862D800221CBA /* HomeModel.swift in Sources */,
+				C7169E0525E862D800221CBA /* DetailViewController.swift in Sources */,
+				C7169E0825E862D800221CBA /* DetailProtocol.swift in Sources */,
+				C7169E0425E862D800221CBA /* AESEncryption.swift in Sources */,
+				C7169E1125E862D900221CBA /* LoginPresenter.swift in Sources */,
+				C7169E1325E862D900221CBA /* LoginModel.swift in Sources */,
+				C7169E0925E862D800221CBA /* Examen_Miguel_Delgado.xcdatamodeld in Sources */,
+				C7169E1525E862D900221CBA /* LoginViewController.swift in Sources */,
+				C7169E0F25E862D900221CBA /* Service.swift in Sources */,
+				C7169E0325E862D800221CBA /* Constants.swift in Sources */,
+				C7169E0725E862D800221CBA /* DetailPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +546,7 @@
 		};
 		C7169DD425E861D700221CBA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DE0CEA5C8532723CC89FA4F /* Pods-MiguelPod.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -283,6 +570,7 @@
 		};
 		C7169DD525E861D700221CBA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15E446C5B42CA864D4A035CB /* Pods-MiguelPod.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -326,6 +614,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C7169DE625E862D800221CBA /* Examen_Miguel_Delgado.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C7169DE725E862D800221CBA /* Examen_Miguel_Delgado.xcdatamodel */,
+			);
+			currentVersion = C7169DE725E862D800221CBA /* Examen_Miguel_Delgado.xcdatamodel */;
+			path = Examen_Miguel_Delgado.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C7169DC225E861D700221CBA /* Project object */;
 }
